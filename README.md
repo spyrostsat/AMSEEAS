@@ -1,13 +1,14 @@
 # AMSEEAS (Adaptive Multi-Surrogate Enhanced Evolutionary Annealing Simplex)
 
-Official Repository of AMSEEAS surrogate-based global optimization algorithm
+# Official Repository of AMSEEAS surrogate-based global optimization algorithm
 
-How to call AMSEEAS
+# How to call AMSEEAS
 
-EXAMPLE ON SPHERE FUNCTION
+# EXAMPLE ON SPHERE FUNCTION
 
 
 import amseeas
+
 def sphere(x):
     
     fx = 0
