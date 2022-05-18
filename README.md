@@ -1,7 +1,8 @@
 # AMSEEAS (Adaptive Multi-Surrogate Enhanced Evolutionary Annealing Simplex)
-# Official Repository of AMSEEAS surrogate-based global optimization algorithm
 
-# How to call AMSEEAS
+Official Repository of AMSEEAS surrogate-based global optimization algorithm
+
+How to call AMSEEAS
 
 EXAMPLE ON SPHERE FUNCTION
 
