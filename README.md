@@ -6,6 +6,9 @@ This is the official repository of the paper "Advancing surrogate-based optimiza
 ![Multiple Surrogates Implementation](/pictures/Surrogates_Plots.png)
 
 
+![Sphere_15D_Example](/pictures/SPHERE_15D.png)
+
+
 ```
 # How to call AMSEEAS (exaple on sphere function):
 
