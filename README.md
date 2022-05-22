@@ -24,7 +24,10 @@ import amseeas
     # NumIter: number of iterations taken by algorithm
     # NumfEval: number of function evaluations
     # Ftolpop: fractional convergence tolerance of population generated at the last iteration
+    # fmin: array of all best population solutions at the end of every iteration cycle
+    # fmax: array of all worst population solutions at the end of every iteration cycle
     # fanaiter: function evaluations per iteration
+    # temptemper: evolution of system temperature
     # S: Evaluated sample points
     # Y: Objective function values for given S
 
