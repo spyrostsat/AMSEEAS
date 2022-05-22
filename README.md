@@ -1,7 +1,9 @@
 # Official Repository of AMSEEAS (Adaptive Multi-Surrogate Enhanced Evolutionary Annealing Simplex)
 
-How to call AMSEEAS (exaple on sphere function):
 ```
+# How to call AMSEEAS (exaple on sphere function):
+
+
 import amseeas
 
     # INPUT ARGUMENTS
