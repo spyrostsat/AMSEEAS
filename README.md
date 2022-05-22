@@ -4,6 +4,29 @@ How to call AMSEEAS (exaple on sphere function):
 ```
 import amseeas
 
+    # INPUT ARGUMENTS
+
+    # n: problem dimension
+    # m: population count ( m > n+1 )
+    # xmin: lower parameter exterior bounds
+    # xmax: upper parameter exterior bounds
+    # fn: objective function
+    # maxeval: maximum number of function evaluations
+    # ftol: the fractional convergence tolerance to be achieved in the function value for an early return
+    # pmut: probability of accepting an offspring generated via mutation
+    # beta: annealing schedule parameter
+    # maxclimbs: maximum number of uphill steps
+
+    # OUTPUT ARGUMENTS
+
+    # BestValue: the minimal value of the objective function
+    # BestPar: the optimal values of control variables
+    # NumIter: number of iterations taken by algorithm
+    # NumfEval: number of function evaluations
+    # Ftolpop: fractional convergence tolerance of population generated at the last iteration
+    # fanaiter: function evaluations per iteration
+    # S: Evaluated sample points
+    # Y: Objective function values for given S
 
 def sphere(x):
     fx = 0    
