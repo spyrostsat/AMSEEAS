@@ -3,7 +3,7 @@
 This is the official repository of the paper "Advancing surrogate-based optimization of time-expensive environmental problems through adaptive multi-model search". It contains the implementation and the supplementary material of our work.
 
 
-![Multiple Surrogates Implementation](Surrogates_Plots.png)
+![Multiple Surrogates Implementation](/pictures/Surrogates_Plots.png)
 
 
 ```
