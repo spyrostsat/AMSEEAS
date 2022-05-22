@@ -27,7 +27,7 @@ import amseeas
     # fmin: array of all best population solutions at the end of every iteration cycle
     # fmax: array of all worst population solutions at the end of every iteration cycle
     # fanaiter: function evaluations per iteration
-    # temptemper: evolution of system temperature
+    # temptemper: array depicting the evolution of the system's temperature
     # S: Evaluated sample points
     # Y: Objective function values for given S
 
