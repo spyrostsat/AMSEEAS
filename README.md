@@ -2,7 +2,9 @@
 
 This is the official repository of the paper "Advancing surrogate-based optimization of time-expensive environmental problems through adaptive multi-model search". It contains the implementation and the supplementary material of our work.
 
-![Screenshot](Surrogates_Plots.png)
+
+![Multiple Surrogates Implementation](Surrogates_Plots.png)
+
 
 ```
 # How to call AMSEEAS (exaple on sphere function):
