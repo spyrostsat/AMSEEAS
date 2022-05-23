@@ -4,7 +4,7 @@ This is the official repository of the paper "Advancing surrogate-based optimiza
 
 If you find this useful, here is our citation:
 
-Tsattalios, S., I. Tsoukalas, P. Dimas, P. Kossieris, A. Efstratiadis and C. Makropoulos (submitted). Advancing surrogate-based optimization of time-expensive environmental problems through adaptive multi-model search. Environmental Modelling and Software.
+Tsattalios, S., I. Tsoukalas, P. Dimas, P. Kossieris, A. Efstratiadis and C. Makropoulos (submitted). Advancing surrogate-based optimization of time-expensive environmental problems through adaptive multi-model search. *Environmental Modelling and Software*.
 
 ![Multiple Surrogates Implementation](/pictures/Surrogates_Plots.png)
 
