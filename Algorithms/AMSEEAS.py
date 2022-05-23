@@ -759,7 +759,6 @@ def amseeas(n, m, xmin, xmax, fn, maxeval, ftol=10 ** (-6), pmut=0.1, beta=2, ma
                 fpop[wpopposition, 0] = fnw
 
             else:  # the reflected point is not better than the lowest (best) point of simplex (s1)
-                print("path b")
                 linsp3 = np.linspace(0, 1, trials).reshape((trials, 1))
 
                 r1 = np.zeros((trials, n))
