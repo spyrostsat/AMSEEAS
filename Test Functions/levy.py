@@ -1,3 +1,5 @@
+from math import sin, pi
+
 def levy(x):
     w1 = 1 + (x[0] - 1) / 4
     wd = 1 + (x[len(x) - 1] - 1) / 4

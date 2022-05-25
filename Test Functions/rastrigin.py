@@ -1,3 +1,5 @@
+from math import pi, cos
+
 def rastrigin(x):
     s = 0
     for l in range(len(x)):

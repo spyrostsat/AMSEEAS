@@ -1,3 +1,5 @@
+from math import cos, exp, pi, sqrt
+
 def ackley(x):
     dd = len(x)
     sum1 = 0

@@ -1,3 +1,5 @@
+from math import cos, sqrt
+
 def griewank(x):
     s = 0
     prod = 1
