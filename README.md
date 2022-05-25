@@ -54,8 +54,8 @@ def sphere(x):
     return fx
 
 
-params_lower_bounds = [-5.12, -5.12, -5.12, -5.12, -5.12, -5.12, -5.12, -5.12, -5.12, -5.12, -5.12, -5.12, -5.12, -5.12, -5.12]
-params_upper_bounds = [5.12, 5.12, 5.12, 5.12, 5.12, 5.12, 5.12, 5.12, 5.12, 5.12, 5.12, 5.12, 5.12, 5.12, 5.12]
+params_lower_bounds = [-5.12] * 15
+params_upper_bounds = [5.12] * 15
 
 BestValue, BestPar, NumIter, NumfEval, Ftolpop, fmin, fmax, fanaiter, temptemper, S, Y = AMSEEAS.amseeas(n=15, m=32, xmin=params_lower_bounds, xmax=params_upper_bounds, fn=sphere, maxeval=500)
 ```
