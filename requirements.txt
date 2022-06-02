@@ -8,7 +8,7 @@ matplotlib==3.5.2
 numpy==1.22.3
 packaging==21.3
 pandas==1.4.2
-Pillow==9.1.0
+Pillow==9.1.1
 pyDOE==0.3.8
 pydsstools @ file:///C:/Users/USER/AMSEEAS/pydsstools-2.1-cp39-cp39-win_amd64.whl
 pyparsing==3.0.9
