@@ -11,12 +11,6 @@ The manuscript introduces a new surrogate-based global optimization algorithm, n
 
 AMSEEAS is built as an extension upon its precursor **SEEAS**, which is a single-surrogate-based optimization method.
 
-## Citation
-___
-If you find this useful, here is our **citation**:
-
-* Tsattalios, S., I. Tsoukalas, P. Dimas, P. Kossieris, A. Efstratiadis and C. Makropoulos (submitted). Advancing surrogate-based optimization of time-expensive environmental problems through adaptive multi-model search. *Environmental Modelling and Software*.
-
 ## Areas of Application
 ___
 AMSEEAS is designed to handle time-demanding global optimization problems (where the term “**global**” is
@@ -98,3 +92,9 @@ results = amseeas(n=dim, m=2*dim+1, xmin=params_lower_bounds, xmax=params_upper_
 
 print(f"Best Value = {results['BestValue']}")
 ```
+
+## Citation
+___
+If you find this useful, here is our **citation**:
+
+* Tsattalios, S., I. Tsoukalas, P. Dimas, P. Kossieris, A. Efstratiadis and C. Makropoulos (submitted). Advancing surrogate-based optimization of time-expensive environmental problems through adaptive multi-model search. *Environmental Modelling and Software*.
