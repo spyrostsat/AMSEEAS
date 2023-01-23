@@ -1,12 +1,51 @@
-# Official Repository of AMSEEAS (Adaptive Multi-Surrogate Enhanced Evolutionary Annealing Simplex)
+# Official Repository of AMSEEAS global optimization algorithm
 
-This is the official repository of the paper "Advancing surrogate-based optimization of time-expensive environmental problems through adaptive multi-model search". It contains the implementation and supplementary material of our work.
-
-If you find this useful, here is our citation:
-
-Tsattalios, S., I. Tsoukalas, P. Dimas, P. Kossieris, A. Efstratiadis and C. Makropoulos (submitted). Advancing surrogate-based optimization of time-expensive environmental problems through adaptive multi-model search. *Environmental Modelling and Software*.
-
+___
 ![Multiple Surrogates Implementation](/pictures/Surrogates_Plots.png)
+
+## Introduction
+___
+This is the official repository of the paper "**Advancing surrogate-based optimization of time-expensive environmental problems through adaptive multi-model search**". It contains the implementation and supplementary material of our work.
+
+The manuscript introduces a new surrogate-based global optimization algorithm, namely the Adaptive Multi-Surrogate Enhanced Evolutionary Annealing Simplex (**AMSEEAS**). AMSEEAS exploits the strengths of multiple surrogate models, that are combined via a roulette-type mechanism, for selecting a specific metamodel to be activated in every iteration.
+
+AMSEEAS is built as an extension upon its precursor **SEEAS**, which is a single-surrogate-based optimization method.
+
+## Citation
+___
+If you find this useful, here is our **citation**:
+
+* Tsattalios, S., I. Tsoukalas, P. Dimas, P. Kossieris, A. Efstratiadis and C. Makropoulos (submitted). Advancing surrogate-based optimization of time-expensive environmental problems through adaptive multi-model search. *Environmental Modelling and Software*.
+
+## Areas of Application
+___
+AMSEEAS is designed to handle time-demanding global optimization problems (where the term “**global**” is
+used to denote nonlinear, single-objective, unconstrained optimization problems with continuous variables)
+of both low (i.e., <=20) and high (i.e., >20) dimensions.
+
+## Requirements
+___
+
+AMSEEAS is written using **Python 3.10.6** and the **pip 21.3.1** version. All other
+requirements needed for the successful implementation of the algorithm are listed in the `requirements.txt` file.
+
+## Installation
+___
+It is highly recommended to use a **virtual environment** for both the installation of Python and the installation of all other
+packages. Assuming that you are inside a new folder with the correct versions of Python3 and pip installed and a virtual
+environment is activated, you can simply clone our repository with the following command:
+
+`git clone https://github.com/spyrostsat/AMSEEAS.git`
+
+Finally, you can install the remaining packages listed in the `requirements.txt` file with the following command:
+
+`pip install -r requirements.txt`
+
+
+## Implementation
+___
+Assuming you have successfully installed AMSEEAS in your system, here are some **instructions** on how to implement the algorithm
+in order to solve global optimization problems of your own:  
 
 ```
 # How to call AMSEEAS:
