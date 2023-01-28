@@ -9,7 +9,9 @@ This is the official repository of the paper "**Advancing surrogate-based optimi
 
 The manuscript introduces a new surrogate-based global optimization algorithm, namely the Adaptive Multi-Surrogate Enhanced Evolutionary Annealing Simplex (**AMSEEAS**) algorithm. AMSEEAS exploits the strengths of multiple surrogate models, that are combined via a roulette-type mechanism, for selecting a specific metamodel to be activated in every iteration.
 
-AMSEEAS is built as an extension upon its precursor **SEEAS**, which is a single-surrogate-based optimization method.
+**AMSEEAS** is built as an extension upon its precursor **SEEAS**, 
+which is a single-surrogate-based optimization method, also inlcuded in this repo. SEEAS, on the other hand, is built
+as an enhanced version of **EAS**, which is a non-surrogate-based optimization algorithm (included here too).
 
 ## Areas of Application
 ___
