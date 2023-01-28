@@ -1,6 +1,3 @@
-optimization_algorithms/scipy_dual_annealing_test.py
-optimization_algorithms/amseeas.py
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

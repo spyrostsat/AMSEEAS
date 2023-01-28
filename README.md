@@ -21,7 +21,7 @@ of both low (i.e., <=20) and high (i.e., >20) dimensions.
 ___
 
 AMSEEAS is written using **Python 3.10.6** and the **pip 21.3.1** version. All other
-requirements needed for the successful implementation of the algorithm are listed in the `requirements.txt` file.
+requirements needed for the implementation of the algorithm are listed in the `requirements.txt` file.
 
 ## Installation
 ___
@@ -38,7 +38,7 @@ Then, you can install the remaining packages listed in the `requirements.txt` fi
 
 ## Implementation
 ___
-Assuming you have successfully installed AMSEEAS in your system, here are some **instructions** on how to implement the algorithm
+Assuming you have successfully installed AMSEEAS in your system, here is how to implement the algorithm
 in order to solve global optimization problems of your own:  
 
 ```
@@ -97,4 +97,4 @@ print(f"Best Value = {results['BestValue']}")
 ___
 If you find this useful, here is our **citation**:
 
-* Tsattalios, S., I. Tsoukalas, P. Dimas, P. Kossieris, A. Efstratiadis and C. Makropoulos (submitted). Advancing surrogate-based optimization of time-expensive environmental problems through adaptive multi-model search. *Environmental Modelling and Software*.
+* Tsattalios, S., I. Tsoukalas, P. Dimas, P. Kossieris, A. Efstratiadis and C. Makropoulos (accepted). Advancing surrogate-based optimization of time-expensive environmental problems through adaptive multi-model search. *Environmental Modelling and Software*.
