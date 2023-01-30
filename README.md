@@ -99,4 +99,6 @@ print(f"Best Value = {results['BestValue']}")
 ___
 If you find this useful, here is our **citation**:
 
-* Tsattalios, S., I. Tsoukalas, P. Dimas, P. Kossieris, A. Efstratiadis and C. Makropoulos (accepted). Advancing surrogate-based optimization of time-expensive environmental problems through adaptive multi-model search. *Environmental Modelling and Software*.
+* Tsattalios, S., Tsoukalas, I., Dimas, P., Kossieris, P., Efstratiadis, A., &
+Makropoulos, C. (2023). Advancing surrogate-based optimization of time-expensive environmental problems
+through adaptive multi-model search. *Environmental Modelling and Software*. https://doi.org/10.1016/j.envsoft.2023.105639
